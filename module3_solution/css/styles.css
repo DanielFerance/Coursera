@@ -1,0 +1,105 @@
+body{
+	background-color: #ff33ff;
+	color:#000;
+	font-size: 16px;
+}
+
+#main-con section{	
+	height:700px;
+	overflow: hidden;
+	position: relative;
+
+}
+section h3.text-center{
+	background-color: #cc33ff;
+	padding-bottom: 0;
+	margin-bottom: 0;
+
+}
+#main-con section p{
+	width:100%;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 15px;
+	height:700px;
+	background-color: #cc33ff;
+	overflow: hidden;
+	padding-top: 0;
+	margin-bottom: 0;
+}
+#main-con section p.full-width{
+	width: 100%;
+}
+
+#main-con section a.link-to-top{
+	position: absolute;
+	bottom: 10px;
+	left:40px;
+	font-size: 1em;
+	color: #fff;
+	text-decoration: underline;
+}
+#main-con section a:hover{
+	
+	font-size: 1.2em;
+	
+	background-color: #330000;
+}
+
+.nav > li > a{
+	text-align: center;
+	border: 1px solid #000;
+	font-size: 2em;
+	color: #fff;
+	background-color: #fff;
+
+}
+
+#nav-header{
+	background-color: #990000;
+	border:0;
+	border-radius:0;
+	
+}
+.navbar-header .navbar-brand  a{
+	color: #000;
+
+}
+.navbar-header .navbar-brand h1{
+	margin: 0;
+	padding-left: 10px;
+	font-size: 1.7em;
+	font-weight: 900;
+	text-shadow: 1px 1px 1px #fff;
+
+}
+.navbar-header .navbar-brand  a:hover,.navbar-header .navbar-brand a:focus{
+	text-decoration: none;
+}
+
+@media(max-width:767px){
+.navbar-header .navbar-brand h1{
+	margin-bottom: 15px;
+
+}
+.nav-list a{
+	text-align: center;
+}
+#main-con section a:hover{
+	
+	font-size: 1.2em;
+	
+	background-color: #330000;
+}
+
+.nav > li > a{
+	text-align: center;
+	border: 1px solid #000;
+	font-size: 1.7em;
+	color: #fff;
+	background-color: #fff;
+
+}
+
+
+}
